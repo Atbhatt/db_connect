@@ -7,9 +7,6 @@ gem "activerecord-postgres-hstore", "~> 0.5.3" # https://github.com/softa/active
 gem "pg", "~> 0.14.1" # Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]. (http://rubygems.org/gems/pg)
 gem "fb_graph", "~> 2.4.19" # A full-stack Facebook Graph API wrapper in Ruby. (https://github.com/nov/fb_graph)
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
