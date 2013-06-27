@@ -23,3 +23,22 @@ production:
   database: db/production.sqlite3
   pool: 5
   timeout: 5000
+
+primary:
+  adapter: sqlite3
+  database: db/production.sqlite3
+  #username:
+  #password:
+  #host:
+  pool: 5
+  timeout: 5000
+
+secondary:
+  primary:
+  adapter: sqlite3
+  database: db/production.sqlite3
+  #username:
+  #password:
+  #host:
+  pool: 5
+  timeout: 5000

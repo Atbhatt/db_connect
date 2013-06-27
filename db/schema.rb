@@ -18,11 +18,6 @@ ActiveRecord::Schema.define(version: 20130627001741) do
     t.string "key"
   end
 
-  create_table "table_batch_drivers", force: true do |t|
-    t.string "job"
-    t.string "key"
-  end
-
   create_table "user_facts", force: true do |t|
     t.integer "user_id"
     t.text    "graph_data"

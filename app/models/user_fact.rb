@@ -1,3 +1,22 @@
 class UserFact < ActiveRecord::Base
+  #ActiveRecord::Base.establish_connection 'secondary'
 
+  def self.get_data(user)
+    begin
+      user_data = FbGraph::User.fetch(user.facebook_user_id, :access_token => user.access_token)
+      UserFact.create(
+        :graph_data => user_data.to_s,
+        :likes => user_data.likes.to_s,
+        :books => user_data.books.to_s,
+        :music => user_data.music.to_s,
+        :movies => user_data.movies.to_s,
+        :television => user_data.television.to_s,
+        :posts => user_data.posts.to_s,
+        :links => user_data.links.to_s,
+        :games => user_data.games.to_s
+      )
+    rescue FbGraph::InvalidToken => e
+      puts "Invalid Token for #{user.facebook_user_id}"
+    end
+  end
 end
