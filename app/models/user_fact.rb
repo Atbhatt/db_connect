@@ -1,10 +1,13 @@
 class UserFact < ActiveRecord::Base
-  #ActiveRecord::Base.establish_connection 'secondary'
+
+  establish_connection "#{Rails.env}"
 
   def self.get_data(user)
     begin
       user_data = FbGraph::User.fetch(user.facebook_user_id, :access_token => user.access_token)
       UserFact.create(
+        :user_id => user.id,
+        :facebook_user_id => user.facebook_user_id,
         :graph_data => user_data.to_s,
         :likes => user_data.likes.to_s,
         :books => user_data.books.to_s,

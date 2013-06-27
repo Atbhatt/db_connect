@@ -1,10 +1,7 @@
-class User < ActiveRecord::Base
-
-  #ActiveRecord::Base.establish_connection 'primary'
-
+class User < SumuruCall
   def self.pull_data
-    User.all.each do |record|
-      UserFact.get_data(record)
+    User.where('updated_at > ?', 5.minutes.ago).each do |user|
+      UserFact.get_data(user)
     end
   end
 end

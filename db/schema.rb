@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130627001741) do
+ActiveRecord::Schema.define(version: 20130627221411) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,7 +23,6 @@ ActiveRecord::Schema.define(version: 20130627001741) do
   end
 
   create_table "user_facts", force: true do |t|
-    t.integer "user_id"
     t.text    "graph_data"
     t.text    "likes"
     t.text    "books"
@@ -33,6 +32,8 @@ ActiveRecord::Schema.define(version: 20130627001741) do
     t.text    "television"
     t.text    "posts"
     t.text    "links"
+    t.string  "facebook_user_id"
+    t.integer "user_id"
   end
 
   create_table "users", force: true do |t|
