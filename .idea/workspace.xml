@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf9644a-be65-4156-b536-6cc8d6b572a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/sumuru_call.rb" afterPath="$PROJECT_DIR$/app/models/sumuru_call.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
     </list>
     <ignored path="userfacts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +26,7 @@
     <file path="/sumuru_call.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372374391377" ignored="false" />
     <file path="/20130627221143_drop_table_user_details.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371111437" ignored="false" />
     <file path="/20130627221411_add_column_facebook_id_to_user_fact.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371328789" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372374392706" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372374455229" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,19 +52,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="577" selection-end="741" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.39473686">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sumuru_call.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sumuru_call.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.09210526">
+            <state line="7" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,8 +109,8 @@
         <option value="$PROJECT_DIR$/app/models/user_fact.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/scheduler.rake" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/models/sumuru_call.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -760,16 +760,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="577" selection-end="741" vertical-scroll-proportion="0.0">
+        <state line="7" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.09210526">
+        <state line="30" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.39473686">
           <folding />
         </state>
       </provider>
