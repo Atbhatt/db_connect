@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf9644a-be65-4156-b536-6cc8d6b572a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/sumuru_call.rb" afterPath="$PROJECT_DIR$/app/models/sumuru_call.rb" />
     </list>
     <ignored path="userfacts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,7 +11,7 @@
     <file path="/20130627001256_add_columns_to_user_facts.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372292066203" ignored="false" />
     <file path="/20130627000227_add_columns_to_user_facts.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372291897161" ignored="false" />
     <file path="/20130626010336_create_users.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372209147495" ignored="false" />
-    <file path="/Dummy.txt" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372373002912" ignored="false" />
+    <file path="/Dummy.txt" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372374253520" ignored="false" />
     <file path="/user.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372370780951" ignored="false" />
     <file path="/20130626005156_create_user_facts.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372208065732" ignored="false" />
     <file path="/20130626003545_create_user_facts.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372207884556" ignored="false" />
@@ -24,9 +23,10 @@
     <file path="/database.yml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372373423444" ignored="false" />
     <file path="/scheduler.rake" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371573533" ignored="false" />
     <file path="/user_detail.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372369834146" ignored="false" />
-    <file path="/sumuru_call.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372372816249" ignored="false" />
+    <file path="/sumuru_call.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372374391377" ignored="false" />
     <file path="/20130627221143_drop_table_user_details.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371111437" ignored="false" />
     <file path="/20130627221411_add_column_facebook_id_to_user_fact.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371328789" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372374392706" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,28 +52,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_fact.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user_fact.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="730" selection-end="730" vertical-scroll-proportion="0.38157895">
+            <state line="25" column="0" selection-start="577" selection-end="741" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sumuru_call.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sumuru_call.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+            <state line="7" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.09210526">
               <folding />
             </state>
           </provider>
@@ -118,8 +109,8 @@
         <option value="$PROJECT_DIR$/app/models/user_fact.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/scheduler.rake" />
-        <option value="$PROJECT_DIR$/app/models/sumuru_call.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/models/sumuru_call.rb" />
       </list>
     </option>
   </component>
@@ -755,6 +746,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user_fact.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="260" selection-end="260" vertical-scroll-proportion="0.10627306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
@@ -762,23 +760,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user_fact.rb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+        <state line="25" column="0" selection-start="577" selection-end="741" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="730" selection-end="730" vertical-scroll-proportion="0.38157895">
+        <state line="7" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.09210526">
           <folding />
         </state>
       </provider>
