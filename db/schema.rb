@@ -13,6 +13,10 @@
 
 ActiveRecord::Schema.define(version: 20130627001741) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+  enable_extension "hstore"
+
   create_table "batch_drivers", force: true do |t|
     t.string "job"
     t.string "key"
@@ -31,7 +35,17 @@ ActiveRecord::Schema.define(version: 20130627001741) do
     t.text    "links"
   end
 
-# Could not dump table "users" because of following NoMethodError
-#   undefined method `[]' for nil:NilClass
+  create_table "users", force: true do |t|
+    t.string "name"
+    t.string "facebook_user_id"
+    t.string "gender"
+    t.string "city"
+    t.string "state"
+    t.string "country"
+    t.date   "birthday"
+    t.string "email"
+    t.string "access_token"
+    t.hstore "data"
+  end
 
 end
