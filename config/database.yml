@@ -24,7 +24,7 @@ sumuru_db:
   database: d14m3t0ljark4i
   username: ud9lu32qsk4bht
   password: pb0gh4fovd2vb0febgruu3tg3rv
-  host: ec2-54-235-111-36.compute-1.amazonaws.com
-  port: 5432
+  host: ec2-54-214-28-104.us-west-2.compute.amazonaws.com
+  port: 5472
   pool: 5
   timeout: 5000
