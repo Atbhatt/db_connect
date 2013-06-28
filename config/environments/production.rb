@@ -30,7 +30,6 @@ Userfacts::Application.configure do
 
   config.assets.compile = false
 
-
   # Generate digests for assets URLs.
   config.assets.digest = false
 
