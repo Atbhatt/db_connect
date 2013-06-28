@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf9644a-be65-4156-b536-6cc8d6b572a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb" afterPath="$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/batch_driver.rb" afterPath="$PROJECT_DIR$/app/models/batch_driver.rb" />
     </list>
     <ignored path="userfacts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +26,7 @@
     <file path="/sumuru_call.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372440284059" ignored="false" />
     <file path="/20130627221143_drop_table_user_details.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371111437" ignored="false" />
     <file path="/20130627221411_add_column_facebook_id_to_user_fact.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371328789" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372440529739" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372442260030" ignored="false" />
     <file path="/db.rake" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372439192008" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,25 +49,25 @@
           <file leaf-file-name="user_fact.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models/user_fact.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+                <state line="25" column="0" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <file leaf-file-name="sumuru_call.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="3" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+                <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.13157895">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="scheduler.rake" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="scheduler.rake" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/tasks/scheduler.rake">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.078947365">
+                <state line="6" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -86,28 +86,28 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="batch_driver.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="batch_driver.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/batch_driver.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="47" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+                <state line="3" column="55" selection-start="143" selection-end="143" vertical-scroll-proportion="0.039473683">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="20130626005025_create_batch_drivers.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="20130626005025_create_batch_drivers.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="12" selection-start="130" selection-end="130" vertical-scroll-proportion="0.02631579">
+                <state line="9" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sumuru_call.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
+          <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/user.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+                <state line="7" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -150,13 +150,13 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/scheduler.rake" />
         <option value="$PROJECT_DIR$/db/migrate/20130627221411_add_column_facebook_id_to_user_fact.rb" />
-        <option value="$PROJECT_DIR$/app/models/batch_driver.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/db.rake" />
         <option value="$PROJECT_DIR$/app/models/user_fact.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/models/sumuru_call.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb" />
+        <option value="$PROJECT_DIR$/app/models/sumuru_call.rb" />
+        <option value="$PROJECT_DIR$/app/models/batch_driver.rb" />
       </list>
     </option>
   </component>
@@ -775,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user_fact.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="35" selection-start="445" selection-end="445" vertical-scroll-proportion="0.09210526">
@@ -789,16 +782,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/lib/tasks/scheduler.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/scheduler.rake">
+    <entry file="file://$PROJECT_DIR$/app/models/user_fact.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.078947365">
+        <state line="25" column="0" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -810,23 +817,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194-perf@userfacts/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/schema_statements.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="640" column="35" selection-start="24635" selection-end="24635" vertical-scroll-proportion="0.34612545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.13157895">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/batch_driver.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="130" selection-end="130" vertical-scroll-proportion="0.02631579">
+        <state line="3" column="55" selection-start="143" selection-end="143" vertical-scroll-proportion="0.039473683">
           <folding />
         </state>
       </provider>
