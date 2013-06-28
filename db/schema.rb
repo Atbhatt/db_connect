@@ -14,7 +14,6 @@
 ActiveRecord::Schema.define(version: 20130627221411) do
 
   # These are extensions that must be enabled in order to support this database
-  ActiveRecord::Base.establish_connection "#{Rails.env}"
   enable_extension "plpgsql"
   enable_extension "hstore"
 
@@ -33,8 +32,8 @@ ActiveRecord::Schema.define(version: 20130627221411) do
     t.text    "television"
     t.text    "posts"
     t.text    "links"
-    t.string  "facebook_user_id"
     t.integer "user_id"
+    t.string  "facebook_user_id"
   end
 
   create_table "users", force: true do |t|

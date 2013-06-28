@@ -6,7 +6,7 @@
 
 development: &DEVELOPMENT
   adapter: postgresql
-  database: development_db
+  database: development
   pool: 5
   timeout: 5000
 
@@ -15,8 +15,8 @@ development: &DEVELOPMENT
 # Do not set this db to the same as development or production.
 test: &TEST
   <<: *DEVELOPMENT
-  database: test_db
+  database: test
 
 production: &PRODUCTION
   <<: *DEVELOPMENT
-  database: production_db
+  database: production
