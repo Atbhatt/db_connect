@@ -1,8 +1,6 @@
 class CreateBatchDrivers < ActiveRecord::Migration
 
-  def connection
-    @connection ||= ActiveRecord::Base.establish_connection "#{ENV['DATABASE_URL']}"
-  end
+  ActiveRecord::Base.establish_connection "#{ENV['DATABASE_URL']}"
 
   def change
     create_table :batch_drivers do |t|

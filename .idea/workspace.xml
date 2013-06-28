@@ -26,7 +26,7 @@
     <file path="/sumuru_call.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372374960404" ignored="false" />
     <file path="/20130627221143_drop_table_user_details.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371111437" ignored="false" />
     <file path="/20130627221411_add_column_facebook_id_to_user_fact.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371328789" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372439235841" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372439421446" ignored="false" />
     <file path="/db.rake" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372439192008" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       <file leaf-file-name="20130626005025_create_batch_drivers.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="280" selection-end="280" vertical-scroll-proportion="0.15789473">
+            <state line="3" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.039473683">
               <folding />
             </state>
           </provider>
@@ -784,7 +784,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="280" selection-end="280" vertical-scroll-proportion="0.15789473">
+        <state line="3" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.039473683">
           <folding />
         </state>
       </provider>
