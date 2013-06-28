@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cf9644a-be65-4156-b536-6cc8d6b572a3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/sumuru_call.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1cf9644a-be65-4156-b536-6cc8d6b572a3" name="Default" comment="" />
     <ignored path="userfacts.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/20130627001741_create_table_user_facts.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372292353260" ignored="false" />
@@ -29,6 +25,8 @@
     <file path="/20130627221143_drop_table_user_details.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371111437" ignored="false" />
     <file path="/20130627221411_add_column_facebook_id_to_user_fact.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371328789" ignored="false" />
     <file path="/db.rake" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372439192008" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372445477245" ignored="false" />
+    <file path="/working.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372445474694" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +52,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sumuru_call.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sumuru_call.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/working/sumuru_call.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="385" selection-end="385" vertical-scroll-proportion="0.15789473">
+            <state line="15" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="working.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/working.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="2" selection-start="17" selection-end="17" vertical-scroll-proportion="0.013157895">
               <folding />
             </state>
           </provider>
@@ -116,6 +123,7 @@
         <option value="$PROJECT_DIR$/app/models/sumuru_call.rb" />
         <option value="$PROJECT_DIR$/app/models/Working/sumuru_call.rb" />
         <option value="$PROJECT_DIR$/app/models/working/sumuru_call.rb" />
+        <option value="$PROJECT_DIR$/app/models/working.rb" />
       </list>
     </option>
   </component>
@@ -677,11 +685,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/user_fact.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/batch_driver.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
@@ -877,7 +880,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/working/sumuru_call.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="385" selection-end="385" vertical-scroll-proportion="0.15789473">
+        <state line="15" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/working.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="17" selection-end="17" vertical-scroll-proportion="0.013157895">
           <folding />
         </state>
       </provider>
