@@ -1,8 +1,5 @@
 class UserFact < ActiveRecord::Base
 
-  #establish_connection "#{ENV['DATABASE_URL'] || Rails.env } "
-  #establish_connection "#{Rails.env}_db"
-
   def self.get_data(user)
     begin
       user_data = FbGraph::User.fetch(user.facebook_user_id, :access_token => user.access_token)
