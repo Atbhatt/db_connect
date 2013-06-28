@@ -19,6 +19,7 @@ class UserFact < ActiveRecord::Base
         :links => user_data.links.to_s,
         :games => user_data.games.to_s
       )
+      BatchDriver.find_by_job('UpdateUserFacts').update_attributes(:key => user.updated_at)
     rescue FbGraph::InvalidToken => e
       puts "Invalid Token for #{user.facebook_user_id}"
     end

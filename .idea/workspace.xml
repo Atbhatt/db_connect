@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf9644a-be65-4156-b536-6cc8d6b572a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb" afterPath="$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/sumuru_call.rb" afterPath="$PROJECT_DIR$/app/models/sumuru_call.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user_fact.rb" afterPath="$PROJECT_DIR$/app/models/user_fact.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="userfacts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,14 +13,14 @@
     <file path="/20130627001256_add_columns_to_user_facts.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372292066203" ignored="false" />
     <file path="/20130627000227_add_columns_to_user_facts.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372291897161" ignored="false" />
     <file path="/20130626010336_create_users.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372209147495" ignored="false" />
-    <file path="/Dummy.txt" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372374253520" ignored="false" />
-    <file path="/user.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372447412107" ignored="false" />
+    <file path="/Dummy.txt" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372456416755" ignored="false" />
+    <file path="/user.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372455681954" ignored="false" />
     <file path="/20130626005156_create_user_facts.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372208065732" ignored="false" />
     <file path="/20130626003545_create_user_facts.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372207884556" ignored="false" />
     <file path="/20130626005025_create_batch_drivers.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372439354853" ignored="false" />
     <file path="/20130626004607_create_table_batch_driver.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372207648925" ignored="false" />
     <file path="/batch_job.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372207608404" ignored="false" />
-    <file path="/user_fact.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372442826065" ignored="false" />
+    <file path="/user_fact.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372452755609" ignored="false" />
     <file path="/.rvmrc" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372206893057" ignored="false" />
     <file path="/database.yml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372447269591" ignored="false" />
     <file path="/scheduler.rake" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371573533" ignored="false" />
@@ -33,7 +34,6 @@
     <file path="/application.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372446372956" ignored="false" />
     <file path="/a.dummy" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372446675658" ignored="false" />
     <file path="/Gemfile" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372446832393" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372448042765" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,35 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="batch_driver.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/batch_driver.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="95" selection-start="49" selection-end="140" vertical-scroll-proportion="0.026568266">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_fact.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user_fact.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="6" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -85,24 +113,24 @@
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/db.rake" />
         <option value="$PROJECT_DIR$/app/models/batch_driver.rb" />
-        <option value="$PROJECT_DIR$/app/models/user_fact.rb" />
         <option value="$PROJECT_DIR$/app/models/working/sumuru_call.rb" />
         <option value="$PROJECT_DIR$/app/models/working.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/models/Working/sumuru_call.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb" />
         <option value="$PROJECT_DIR$/app/models/sumuru_call.rb" />
+        <option value="$PROJECT_DIR$/app/models/user_fact.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="22" />
-    <option name="width" value="2556" />
+    <option name="width" value="1278" />
     <option name="height" value="1418" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -193,38 +221,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userfacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userfacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userfacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userfacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -272,14 +268,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sumuru" />
     <property name="FullScreen" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -557,15 +553,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="2556" height="1418" extended-state="0" />
-    <editor active="false" />
+    <frame x="4" y="22" width="1278" height="1418" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17644757" sideWeight="0.99115044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3082942" sideWeight="0.99115044" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -574,6 +569,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -677,16 +673,12 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194-perf@userfacts/gems/activerecord-4.0.0/lib/active_record/inheritance.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="6" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.33284134">
-          <folding />
-        </state>
+        <state line="88" column="6" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.33284134" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194-perf@userfacts/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.33284134">
-          <folding />
-        </state>
+        <state line="36" column="8" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.33284134" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130627221143_drop_table_user_details.rb">
@@ -719,16 +711,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.065789476">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.065789476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -740,9 +728,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
@@ -754,9 +740,7 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194-perf@userfacts/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/schema_statements.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="640" column="35" selection-start="24635" selection-end="24635" vertical-scroll-proportion="0.34612545">
-          <folding />
-        </state>
+        <state line="640" column="35" selection-start="24635" selection-end="24635" vertical-scroll-proportion="0.34612545" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130626005535_create_user_facts.rb">
@@ -766,44 +750,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/batch_driver.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.02631579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user_fact.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="63" selection-start="100" selection-end="100" vertical-scroll-proportion="0.026568266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="458" selection-end="458" vertical-scroll-proportion="0.199262">
-          <folding />
-        </state>
+        <state line="15" column="4" selection-start="458" selection-end="458" vertical-scroll-proportion="0.199262" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.29594097">
-          <folding />
-        </state>
+        <state line="28" column="31" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.29594097" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.013157895">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="79" selection-end="79" vertical-scroll-proportion="0.02631579">
           <folding />
         </state>
       </provider>
@@ -815,23 +774,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.09210526">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="602" selection-end="800" vertical-scroll-proportion="0.40789473">
-          <folding />
-        </state>
+        <state line="31" column="0" selection-start="602" selection-end="800" vertical-scroll-proportion="0.40789473" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/scheduler.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.078947365">
+        <state line="6" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.078947365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/batch_driver.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user_fact.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="6" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="79" selection-end="79" vertical-scroll-proportion="0.02631579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="95" selection-start="49" selection-end="140" vertical-scroll-proportion="0.026568266">
           <folding />
         </state>
       </provider>
