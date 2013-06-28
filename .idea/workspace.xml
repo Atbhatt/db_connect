@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf9644a-be65-4156-b536-6cc8d6b572a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/sumuru_call.rb" afterPath="$PROJECT_DIR$/app/models/sumuru_call.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb" afterPath="$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb" />
     </list>
     <ignored path="userfacts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +26,7 @@
     <file path="/sumuru_call.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372440284059" ignored="false" />
     <file path="/20130627221143_drop_table_user_details.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371111437" ignored="false" />
     <file path="/20130627221411_add_column_facebook_id_to_user_fact.rb" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372371328789" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372440468626" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372440529739" ignored="false" />
     <file path="/db.rake" changelist="1cf9644a-be65-4156-b536-6cc8d6b572a3" time="1372439192008" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,10 +95,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sumuru_call.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="20130626005025_create_batch_drivers.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="12" selection-start="130" selection-end="130" vertical-scroll-proportion="0.02631579">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sumuru_call.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.13157895">
+                <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -145,10 +153,10 @@
         <option value="$PROJECT_DIR$/app/models/batch_driver.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/db.rake" />
-        <option value="$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb" />
         <option value="$PROJECT_DIR$/app/models/user_fact.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/models/sumuru_call.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb" />
       </list>
     </option>
   </component>
@@ -781,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="3" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
@@ -809,6 +810,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/batch_driver.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="47" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
@@ -816,9 +824,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/sumuru_call.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130626005025_create_batch_drivers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.13157895">
+        <state line="2" column="12" selection-start="130" selection-end="130" vertical-scroll-proportion="0.02631579">
           <folding />
         </state>
       </provider>
