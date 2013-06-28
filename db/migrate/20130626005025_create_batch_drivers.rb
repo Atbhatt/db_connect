@@ -1,6 +1,7 @@
 class CreateBatchDrivers < ActiveRecord::Migration
+  ActiveRecord::Base.establish_connection "#{Rails.env}"
+
   def change
-    ActiveRecord::Base.establish_connection "#{Rails.env}"
     create_table :batch_drivers do |t|
       t.string :job
       t.string :key
