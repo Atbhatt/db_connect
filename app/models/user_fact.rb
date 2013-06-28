@@ -1,6 +1,7 @@
 class UserFact < ActiveRecord::Base
 
-  establish_connection "#{ENV['DATABASE_URL']}"
+  #establish_connection "#{ENV['DATABASE_URL'] || Rails.env } "
+  #establish_connection "#{Rails.env}_db"
 
   def self.get_data(user)
     begin

@@ -6,7 +6,7 @@
 
 development: &DEVELOPMENT
   adapter: postgresql
-  database: development
+  database: development_db
   pool: 5
   timeout: 5000
 
@@ -14,17 +14,21 @@ development: &DEVELOPMENT
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  <<: *DEVELOPMENT
-  database: test
+  adapter: postgresql
+  database: test_db
+  pool: 5
+  timeout: 5000
 
 production:
-  <<: *DEVELOPMENT
-  database: production
+  adapter: postgresql
+  database: production_db
+  pool: 5
+  timeout: 5000
 
-#sumuru:
-#    adapter: postgresql
-#    database: d14m3t0ljark4i
-#    username: ud9lu32qsk4bht
-#    password: pb0gh4fovd2vb0febgruu3tg3rv
-#    host: ec2-54-214-28-104.us-west-2.compute.amazonaws.com
-#    port: 5472
+sumuru:
+    adapter: postgresql
+    database: d14m3t0ljark4i
+    username: ud9lu32qsk4bht
+    password: pb0gh4fovd2vb0febgruu3tg3rv
+    host: ec2-54-214-28-104.us-west-2.compute.amazonaws.com
+    port: 5472
