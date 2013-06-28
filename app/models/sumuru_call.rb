@@ -1,6 +1,5 @@
 class SumuruCall < ActiveRecord::Base
   self.abstract_class = true
-  #puts "#{__FILE__}:#{__LINE__}ENV DUB", ENV['DUB']
   if ENV['DUB']
     establish_connection(
       :adapter => 'postgresql',
