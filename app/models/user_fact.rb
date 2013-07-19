@@ -1,25 +1,34 @@
 class UserFact < ActiveRecord::Base
-    def self.get_data(user)
-    begin
-      user_data = FbGraph::User.fetch(user.facebook_user_id, :access_token => user.access_token)
-      UserFact.create(
-        :user_id => user.id,
-        :facebook_user_id => user.facebook_user_id,
-        :graph_data =>    user_data.to_s,
-        :likes =>         (user_data.likes.to_s unless user_data.likes.empty?),
-        :books =>         (user_data.books.to_s unless user_data.books.empty?),
-        :music =>         (user_data.music.to_s unless user_data.music.empty?),
-        :movies =>        (user_data.movies.to_s unless user_data.movies.empty?),
-        :television =>    (user_data.television.to_s unless user_data.television.empty?),
-        :posts =>         (user_data.posts.to_s unless user_data.posts.empty?),
-        :links =>         (user_data.links.to_s unless user_data.links.empty?),
-        :games =>         (user_data.games.to_s unless user_data.games.empty?),
-        :friends =>       (user_data.friends.to_s unless user_data.friends.empty?),
-        :family =>        (user_data.family.to_s unless user_data.family.empty?)
-      )
-      BatchDriver.find_by_job('UpdateUserFacts').update_attributes(:key => user.updated_at)
-    rescue FbGraph::InvalidToken => e
-      puts "Invalid Token for #{user.facebook_user_id}"
+  has_many :friends
+  has_many :likes
+
+  def self.get_data(user)
+    if UserFact.where("user_id = ?", user.id).exists?
+      puts "User #{user.id} already exists"
+    else
+      begin
+        user_data = FbGraph::User.fetch(user.facebook_user_id, :access_token => user.access_token)
+        UserFact.create(:user_id => user.id, :facebook_user_id => user.facebook_user_id)
+
+        self.data_populate(user.id, UserFact.where("user_id =?", user.id).last.id, user_data)
+
+        BatchDriver.find_by_job('UpdateUserFacts').update_attributes(:key => user.updated_at)
+      rescue FbGraph::InvalidToken => e
+        puts "Invalid Token for #{user.facebook_user_id}"
+      end
+    end
+  end
+
+  DATA_FIELDS = %w[friends likes books music movies television posts links games]
+
+  def self.data_populate(user_id, user_facts_id, user_data)
+    DATA_FIELDS.each do |data_field|
+      class_name = data_field.classify.constantize
+      unless user_data.send(data_field).empty?
+        user_data.send(data_field).each do |specific_data|
+          class_name.create({:user_id => user_id, :user_fact_id => user_facts_id, :data => specific_data.raw_attributes.to_hstore})
+        end
+      end
     end
   end
 end
