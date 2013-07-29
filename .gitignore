@@ -16,4 +16,4 @@
 /log/*.log
 /tmp
 /.idea
-
+*.dat
