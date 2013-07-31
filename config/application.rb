@@ -14,6 +14,7 @@ Bundler.require(:default, Rails.env)
 module Userfacts
   class Application < Rails::Application
 
+    #TODO make the measure work.
     Librato.measure 'user_fact_table.count', 1000
     #Librato.measure 'likes_table.count', Like.count
     #Librato.measure 'links_table.count', Link.count
