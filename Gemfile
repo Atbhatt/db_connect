@@ -6,6 +6,7 @@ gem "activerecord-postgres-array", "0.0.8" # https://github.com/tlconnor/activer
 gem "activerecord-postgres-hstore", "~> 0.5.3" # https://github.com/softa/activerecord-postgres-hstore
 gem "pg", "~> 0.14.1" # Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]. (http://rubygems.org/gems/pg)
 gem "fb_graph", "~> 2.4.19" # A full-stack Facebook Graph API wrapper in Ruby. (https://github.com/nov/fb_graph)
+gem 'librato-rails'
 gem "awesome_print"
 
 # Use SCSS for stylesheets
