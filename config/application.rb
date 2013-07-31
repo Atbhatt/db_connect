@@ -13,6 +13,8 @@ Bundler.require(:default, Rails.env)
 
 module Userfacts
   class Application < Rails::Application
+
+    Librato.measure 'total_rows', 1000
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
