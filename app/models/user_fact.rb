@@ -19,8 +19,8 @@ class UserFact < ActiveRecord::Base
           :city => user.city,
           :state => user.state,
           :country => user.country,
-          :latitude => user.latitude,
-          :longitude => user.longitude,
+          :latitude => user.data["latitude"],
+          :longitude => user.data["longitude"],
         )
 
         self.data_populate(user.id, UserFact.where("user_id =?", user.id).last.id, user_data)
