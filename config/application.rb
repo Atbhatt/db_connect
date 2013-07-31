@@ -14,7 +14,18 @@ Bundler.require(:default, Rails.env)
 module Userfacts
   class Application < Rails::Application
 
-    Librato.measure 'total_rows', 1000
+    Librato.measure 'user_fact_table.count', UserFact.count
+    Librato.measure 'likes_table.count', Like.count
+    Librato.measure 'links_table.count', Link.count
+    Librato.measure 'post_table.count', Post.count
+    Librato.measure 'friends_table.count', Friend.count
+
+    Librato.measure 'games_table.count', Game.count
+    Librato.measure 'books_table.count', Book.count
+
+    Librato.measure 'movies_table.count', Movie.count
+    Librato.measure 'music_table.count', Music.count
+    Librato.measure 'television_table.count', Television.count
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
