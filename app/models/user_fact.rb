@@ -8,7 +8,20 @@ class UserFact < ActiveRecord::Base
     else
       begin
         user_data = FbGraph::User.fetch(user.facebook_user_id, :access_token => user.access_token)
-        UserFact.create(:user_id => user.id, :facebook_user_id => user.facebook_user_id)
+        UserFact.create(
+          :user_id => user.id,
+          :facebook_user_id => user.facebook_user_id,
+          :name => user.name,
+          :access_token => user.access_token,
+          :email => user.email,
+          :birthday => user.birthday,
+          :gender => user.gender,
+          :city => user.city,
+          :state => user.state,
+          :country => user.country,
+          :latitude => user.latitude,
+          :longitude => user.longitude,
+        )
 
         self.data_populate(user.id, UserFact.where("user_id =?", user.id).last.id, user_data)
 
