@@ -25,8 +25,15 @@ class UserFact < ActiveRecord::Base
 
         self.data_populate(user.id, UserFact.where("user_id =?", user.id).last.id, user_data)
 
+        #Increment success user fact metric
+        Librato.increment 'success_user_fact'
+
+        #Update BatchDriver record create
         BatchDriver.find_by_job('UpdateUserFacts').update_attributes(:key => user.updated_at)
       rescue FbGraph::InvalidToken => e
+        #Increment failed user fact metric
+        Librato.increment 'failed_user_fact'
+
         puts "Invalid Token for #{user.facebook_user_id}"
       end
     end
