@@ -1,6 +1,13 @@
 class UserFact < ActiveRecord::Base
   has_many :friends
   has_many :likes
+  has_many :movies
+  has_many :musics
+  has_many :televisions
+  has_many :books
+  has_many :games
+  has_many :links
+  has_many :posts
 
   def self.get_data(user)
     if UserFact.where("user_id = ?", user.id).exists?
