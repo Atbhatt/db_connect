@@ -7,6 +7,7 @@ class UserFact < ActiveRecord::Base
       puts "User #{user.id} already exists"
     else
       begin
+        puts "User #{user.id} does not exist - starting user fact"
         user_data = FbGraph::User.fetch(user.facebook_user_id, :access_token => user.access_token)
         UserFact.create(
           :user_id => user.id,
@@ -43,6 +44,7 @@ class UserFact < ActiveRecord::Base
 
   def self.data_populate(user_id, user_facts_id, user_data)
     DATA_FIELDS.each do |data_field|
+      puts "Start storing #{data_field}"
       class_name = data_field.classify.constantize
       unless user_data.send(data_field).empty?
         user_data.send(data_field).each do |specific_data|
